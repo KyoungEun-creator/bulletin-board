@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+}
+a {
+  cursor: pointer;
+}
+header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 50px 10px 50px;
+}
+#logo {
+  width: 200px;
+  margin: 20px 0 0px 0;
+}
+#read_post_container {
+  /* border: 1px solid green; */
+  /* margin-top: 30px; */
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-collapse: collapse;
+  padding: 5px 0 5px 0;
+}
+#post_title {
+  /* border: 1px solid blue; */
+  width: 100%;
+}
+#post_writer {
+  /* border: 1px solid pink; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 10px 0;
+}
+#post_create_date {
+  /* border: 1px solid pink; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0 10px 0;
+}
+#post_content {
+  /* border: 1px solid orange; */
+  width: 100%;
+  height: fit-content;
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+#write_comment_container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+#comment {
+  width: 100%;
+  justify-content: flex-start;
+}
+#create_comment_content_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: fit-content;
+  border: 2px solid rgb(62, 136, 206);
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+#comment_writer {
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+#comment_content {
+  border: none;
+  outline-color: none;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+  resize: none;
+}
+#comment_content:focus {
+  outline: none;
+}
+#create_comment_btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+#create_comment_btn {
+  width: 90px;
+  height: 30px;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}

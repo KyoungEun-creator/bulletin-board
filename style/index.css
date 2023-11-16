@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background-color: rgb(55, 55, 55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  box-sizing: border-box;
+}
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+input {
+  box-sizing: border-box;
+}
+header {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 50px 10px 50px;
+}
+#logo {
+  width: 200px;
+  margin: 20px 0 20px 0;
+}
+#login_btn {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(62, 136, 206);
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+}
+#after_login {
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: none;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+#profile_welcome {
+  font-size: 25px;
+  border: 0;
+  background-color: transparent;
+}
+#profile_setting {
+  margin-top: 10px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.setting_btn {
+  background-color: rgb(53, 123, 189);
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 7px 5px 7px;
+}
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+#post_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-collapse: collapse;
+  padding: 40px 0 15px 0;
+}
+table tr {
+  display: flex;
+  justify-content: center;
+}
+table th,
+table td {
+  border: 1px solid white;
+}
+table th {
+  background-color: rgb(62, 136, 206);
+  opacity: 90%;
+}
+th,
+td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+}
+.post_num {
+  width: 100px;
+}
+.post_writer {
+  width: 150px;
+}
+.post_title {
+  width: 400px;
+}
+.post_create_date {
+  width: 250px;
+}
+#move_create_post_btn {
+  width: 90px;
+  height: 30px;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+}
